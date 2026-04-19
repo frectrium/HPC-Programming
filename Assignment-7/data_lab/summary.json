@@ -1,0 +1,357 @@
+{
+  "a": {
+    "config": {
+      "maxiter": 10, 
+      "nx": 250, 
+      "ny": 100, 
+      "points": 900000, 
+      "tag": "a"
+    }, 
+    "parallel": {
+      "1": {
+        "algo_time": 0.192734, 
+        "algorithm": 0.192734, 
+        "denormalization": 0.000178, 
+        "interpolation": 0.086292, 
+        "mover": 0.105753, 
+        "normalization": 0.000511, 
+        "voids": 2, 
+        "wall": 0.24942898750305176
+      }, 
+      "16": {
+        "algo_time": 0.041896, 
+        "algorithm": 0.041896, 
+        "denormalization": 0.00051, 
+        "interpolation": 0.026938, 
+        "mover": 0.013809, 
+        "normalization": 0.00064, 
+        "voids": 2, 
+        "wall": 0.14705395698547363
+      }, 
+      "2": {
+        "algo_time": 0.10354, 
+        "algorithm": 0.10354, 
+        "denormalization": 0.000225, 
+        "interpolation": 0.046448, 
+        "mover": 0.056315, 
+        "normalization": 0.000553, 
+        "voids": 2, 
+        "wall": 0.199631929397583
+      }, 
+      "4": {
+        "algo_time": 0.054307, 
+        "algorithm": 0.054307, 
+        "denormalization": 0.000234, 
+        "interpolation": 0.024421, 
+        "mover": 0.029084, 
+        "normalization": 0.000568, 
+        "voids": 2, 
+        "wall": 0.14954590797424316
+      }, 
+      "8": {
+        "algo_time": 0.033997, 
+        "algorithm": 0.033997, 
+        "denormalization": 0.000254, 
+        "interpolation": 0.015499, 
+        "mover": 0.01762, 
+        "normalization": 0.000624, 
+        "voids": 2, 
+        "wall": 0.09138894081115723
+      }
+    }, 
+    "serial": {
+      "algo_time": 0.267111, 
+      "algorithm": 0.267111, 
+      "denormalization": 0.00021, 
+      "interpolation": 0.116495, 
+      "mover": 0.149072, 
+      "normalization": 0.001334, 
+      "voids": 2, 
+      "wall": 0.38277196884155273
+    }
+  }, 
+  "b": {
+    "config": {
+      "maxiter": 10, 
+      "nx": 250, 
+      "ny": 100, 
+      "points": 5000000, 
+      "tag": "b"
+    }, 
+    "parallel": {
+      "1": {
+        "algo_time": 1.11732, 
+        "algorithm": 1.11732, 
+        "denormalization": 0.000195, 
+        "interpolation": 0.499355, 
+        "mover": 0.61722, 
+        "normalization": 0.00055, 
+        "voids": 10, 
+        "wall": 1.3672449588775635
+      }, 
+      "16": {
+        "algo_time": 0.178004, 
+        "algorithm": 0.178004, 
+        "denormalization": 0.000605, 
+        "interpolation": 0.079943, 
+        "mover": 0.094711, 
+        "normalization": 0.002745, 
+        "voids": 10, 
+        "wall": 0.35578298568725586
+      }, 
+      "2": {
+        "algo_time": 0.582644, 
+        "algorithm": 0.582644, 
+        "denormalization": 0.000242, 
+        "interpolation": 0.25904, 
+        "mover": 0.322779, 
+        "normalization": 0.000582, 
+        "voids": 10, 
+        "wall": 0.7687220573425293
+      }, 
+      "4": {
+        "algo_time": 0.302744, 
+        "algorithm": 0.302744, 
+        "denormalization": 0.000242, 
+        "interpolation": 0.13654, 
+        "mover": 0.165358, 
+        "normalization": 0.000604, 
+        "voids": 10, 
+        "wall": 0.533470869064331
+      }, 
+      "8": {
+        "algo_time": 0.170189, 
+        "algorithm": 0.170189, 
+        "denormalization": 0.000257, 
+        "interpolation": 0.079603, 
+        "mover": 0.089702, 
+        "normalization": 0.000627, 
+        "voids": 10, 
+        "wall": 0.3556039333343506
+      }
+    }, 
+    "serial": {
+      "algo_time": 1.568071, 
+      "algorithm": 1.568071, 
+      "denormalization": 0.000224, 
+      "interpolation": 0.686992, 
+      "mover": 0.879408, 
+      "normalization": 0.001447, 
+      "voids": 10, 
+      "wall": 1.8017151355743408
+    }
+  }, 
+  "c": {
+    "config": {
+      "maxiter": 10, 
+      "nx": 500, 
+      "ny": 200, 
+      "points": 3600000, 
+      "tag": "c"
+    }, 
+    "parallel": {
+      "1": {
+        "algo_time": 1.082997, 
+        "algorithm": 1.082997, 
+        "denormalization": 0.000667, 
+        "interpolation": 0.528791, 
+        "mover": 0.551579, 
+        "normalization": 0.00196, 
+        "voids": 2, 
+        "wall": 1.2748150825500488
+      }, 
+      "16": {
+        "algo_time": 0.171958, 
+        "algorithm": 0.171958, 
+        "denormalization": 0.002166, 
+        "interpolation": 0.1035, 
+        "mover": 0.063783, 
+        "normalization": 0.00251, 
+        "voids": 2, 
+        "wall": 0.35289502143859863
+      }, 
+      "2": {
+        "algo_time": 0.565439, 
+        "algorithm": 0.565439, 
+        "denormalization": 0.000862, 
+        "interpolation": 0.273701, 
+        "mover": 0.288784, 
+        "normalization": 0.002093, 
+        "voids": 2, 
+        "wall": 0.7156720161437988
+      }, 
+      "4": {
+        "algo_time": 0.302736, 
+        "algorithm": 0.302736, 
+        "denormalization": 0.000936, 
+        "interpolation": 0.145995, 
+        "mover": 0.153568, 
+        "normalization": 0.002238, 
+        "voids": 2, 
+        "wall": 0.5232930183410645
+      }, 
+      "8": {
+        "algo_time": 0.170833, 
+        "algorithm": 0.170833, 
+        "denormalization": 0.000998, 
+        "interpolation": 0.08462, 
+        "mover": 0.082825, 
+        "normalization": 0.00239, 
+        "voids": 2, 
+        "wall": 0.38858580589294434
+      }
+    }, 
+    "serial": {
+      "algo_time": 1.298016, 
+      "algorithm": 1.298016, 
+      "denormalization": 0.000822, 
+      "interpolation": 0.585954, 
+      "mover": 0.705997, 
+      "normalization": 0.005243, 
+      "voids": 2, 
+      "wall": 1.5353991985321045
+    }
+  }, 
+  "d": {
+    "config": {
+      "maxiter": 10, 
+      "nx": 500, 
+      "ny": 200, 
+      "points": 20000000, 
+      "tag": "d"
+    }, 
+    "parallel": {
+      "1": {
+        "algo_time": 6.002441, 
+        "algorithm": 6.002441, 
+        "denormalization": 0.000678, 
+        "interpolation": 2.930224, 
+        "mover": 3.069568, 
+        "normalization": 0.001971, 
+        "voids": 4, 
+        "wall": 6.776473045349121
+      }, 
+      "16": {
+        "algo_time": 0.707335, 
+        "algorithm": 0.707335, 
+        "denormalization": 0.002238, 
+        "interpolation": 0.366657, 
+        "mover": 0.33593, 
+        "normalization": 0.00251, 
+        "voids": 4, 
+        "wall": 1.4241271018981934
+      }, 
+      "2": {
+        "algo_time": 3.119044, 
+        "algorithm": 3.119044, 
+        "denormalization": 0.000864, 
+        "interpolation": 1.511686, 
+        "mover": 1.604387, 
+        "normalization": 0.002108, 
+        "voids": 4, 
+        "wall": 3.812164068222046
+      }, 
+      "4": {
+        "algo_time": 1.614135, 
+        "algorithm": 1.614135, 
+        "denormalization": 0.000919, 
+        "interpolation": 0.772347, 
+        "mover": 0.838681, 
+        "normalization": 0.002188, 
+        "voids": 4, 
+        "wall": 2.3497729301452637
+      }, 
+      "8": {
+        "algo_time": 0.908337, 
+        "algorithm": 0.908337, 
+        "denormalization": 0.000996, 
+        "interpolation": 0.444118, 
+        "mover": 0.460831, 
+        "normalization": 0.002391, 
+        "voids": 4, 
+        "wall": 1.6495349407196045
+      }
+    }, 
+    "serial": {
+      "algo_time": 7.188379, 
+      "algorithm": 7.188379, 
+      "denormalization": 0.00083, 
+      "interpolation": 3.256196, 
+      "mover": 3.926089, 
+      "normalization": 0.005264, 
+      "voids": 4, 
+      "wall": 8.023967027664185
+    }
+  }, 
+  "e": {
+    "config": {
+      "maxiter": 10, 
+      "nx": 1000, 
+      "ny": 400, 
+      "points": 14000000, 
+      "tag": "e"
+    }, 
+    "parallel": {
+      "1": {
+        "algo_time": 4.247566, 
+        "algorithm": 4.247566, 
+        "denormalization": 0.002647, 
+        "interpolation": 2.097153, 
+        "mover": 2.139908, 
+        "normalization": 0.007857, 
+        "voids": 0, 
+        "wall": 4.895987033843994
+      }, 
+      "16": {
+        "algo_time": 0.68292, 
+        "algorithm": 0.68292, 
+        "denormalization": 0.002456, 
+        "interpolation": 0.409773, 
+        "mover": 0.269243, 
+        "normalization": 0.001448, 
+        "voids": 0, 
+        "wall": 1.3396921157836914
+      }, 
+      "2": {
+        "algo_time": 2.244993, 
+        "algorithm": 2.244993, 
+        "denormalization": 0.001756, 
+        "interpolation": 1.119548, 
+        "mover": 1.11954, 
+        "normalization": 0.004149, 
+        "voids": 0, 
+        "wall": 2.865370035171509
+      }, 
+      "4": {
+        "algo_time": 1.31168, 
+        "algorithm": 1.31168, 
+        "denormalization": 0.001006, 
+        "interpolation": 0.716179, 
+        "mover": 0.592197, 
+        "normalization": 0.002298, 
+        "voids": 0, 
+        "wall": 1.8824729919433594
+      }, 
+      "8": {
+        "algo_time": 0.936194, 
+        "algorithm": 0.936194, 
+        "denormalization": 0.000739, 
+        "interpolation": 0.609094, 
+        "mover": 0.324977, 
+        "normalization": 0.001384, 
+        "voids": 0, 
+        "wall": 1.5672471523284912
+      }
+    }, 
+    "serial": {
+      "algo_time": 5.627324, 
+      "algorithm": 5.627324, 
+      "denormalization": 0.003459, 
+      "interpolation": 2.555585, 
+      "mover": 3.045937, 
+      "normalization": 0.022343, 
+      "voids": 0, 
+      "wall": 6.233796119689941
+    }
+  }
+}
