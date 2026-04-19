@@ -1,0 +1,17 @@
+method,threads,status,exact_match,max_diff,cells_differ
+serial,1,EXACT_MATCH,True,0.00e+00,0
+atomic,1,EXACT_MATCH,True,0.00e+00,0
+atomic,2,EXACT_MATCH,True,0.00e+00,0
+atomic,4,EXACT_MATCH,True,0.00e+00,0
+atomic,8,EXACT_MATCH,True,0.00e+00,0
+atomic,16,EXACT_MATCH,True,0.00e+00,0
+reduction,1,EXACT_MATCH,True,0.00e+00,0
+reduction,2,EXACT_MATCH,True,0.00e+00,0
+reduction,4,EXACT_MATCH,True,0.00e+00,0
+reduction,8,EXACT_MATCH,True,0.00e+00,0
+reduction,16,EXACT_MATCH,True,0.00e+00,0
+reduction_unrolled,1,EXACT_MATCH,True,0.00e+00,0
+reduction_unrolled,2,EXACT_MATCH,True,0.00e+00,0
+reduction_unrolled,4,EXACT_MATCH,True,0.00e+00,0
+reduction_unrolled,8,EXACT_MATCH,True,0.00e+00,0
+reduction_unrolled,16,EXACT_MATCH,True,0.00e+00,0

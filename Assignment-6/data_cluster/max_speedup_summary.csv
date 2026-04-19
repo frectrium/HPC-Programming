@@ -1,0 +1,6 @@
+config,NX,NY,num_points,best_method,best_threads,serial_time_s,parallel_time_s,max_speedup,efficiency_pct
+a,250,100,900000,reduction_unrolled,8,0.060000,0.009041,6.6364,82.96
+b,250,100,5000000,reduction_unrolled,8,0.330000,0.045155,7.3082,91.35
+c,500,200,3600000,reduction_unrolled,8,0.360000,0.044085,8.1660,102.08
+d,500,200,20000000,reduction_unrolled,8,2.080000,0.226004,9.2034,115.04
+e,1000,400,14000000,reduction_unrolled,16,1.500000,0.349559,4.2911,26.82
